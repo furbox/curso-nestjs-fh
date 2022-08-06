@@ -24,7 +24,12 @@ export class Pokemon {
         console.log(`${this.name.toUpperCase()}!!!`)
     }
 
+    @Deprecated('ya no lo use amigo use el speak2()')
     speak() {
+        console.log(`${this.name}, ${this.name}`);
+    }
+
+    speak2() {
         console.log(`${this.name}, ${this.name}`);
     }
 }

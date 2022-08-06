@@ -3,7 +3,10 @@ import './style.css'
 import typescriptLogo from './typescript.svg'
 import { setupCounter } from './counter'
 import { pokemons } from './bases/02-objects'
-import { charmander } from './bases/03-classes'
+// import { charmander } from './bases/03-classes'
+// import { charmander } from './bases/04-injection'
+// import { dito } from './bases/05-decorators'
+import { dito } from './bases/06-decorators2'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
@@ -15,7 +18,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     </a>
     <h1>Vite + TypeScript - ${templateString}!!!</h1>
     <p>${pokemons.join(',')}</p>
-    <p>${charmander.name}</p>
+    <p>${dito.name}</p>
     <div class="card">
       <button id="counter" type="button"></button>
     </div>

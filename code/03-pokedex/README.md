@@ -76,21 +76,30 @@ Nest is [MIT licensed](LICENSE).
 ## Instalalacion
 
 
-instalar nest cli
+1.-instalar nest cli
 ```
 npm i -g @nestjs/cli
 ```
 
-instalar dependencias
+2.-instalar dependencias
 ```
 yarn install
 ```
-Levantar mongodb con docker
+3.-Variables de entorno
+Clonar el archivo ```.env.example``` y renombrarlo a ```.env```
+llenar las variables de entorno faltantes
+
+4.-Levantar mongodb con docker
 ```
 docker compose up -d
 ```
 
-instalar semilla
+5.-Ejecutar la aplicacion
+```
+yarn start:dev
+```
+
+6.-instalar semilla
 ```
 http://localhost:3000/api/v2/seed
 ```

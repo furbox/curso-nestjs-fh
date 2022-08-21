@@ -1,3 +1,4 @@
 node_modules/
 **/.env
 code/03-pokedex/.env
+code/04-teslo-shop/postgres
